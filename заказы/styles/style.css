@@ -117,11 +117,9 @@ img[alt="logo.png"] {
     color: #01c94d;
 }
 
-.header_nav_right img[alt="logging_img"] {
-    margin-left: 38px;
-    padding-right: 11px;
+.header_nav_right .dropdown{
+    padding-right: 38px;
 }
-
 
 .header_nav_right a {
     padding-top: 7px;

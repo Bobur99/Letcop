@@ -38,6 +38,7 @@ img[alt="logo.png"] {
     padding: 0;
 }
 
+
 #dropdownMenuLink_1,
 #dropdownMenuLink_2,
 #dropdownMenuLink_3,
@@ -63,7 +64,7 @@ img[alt="logo.png"] {
 
 .header_nav_left ul li:nth-child(4) .dropdown .dropdown-menu .dropdown-item {
     padding: 4px 12px;
-    width: 75px;
+    width: 185px;
     margin: 0;
     font-family: 'Montserrat-Regular';
     font-weight: normal;
@@ -177,6 +178,7 @@ img[alt="logo.png"] {
 
 .header_content .button a:hover {
     text-decoration: none;
+    box-shadow: 0 0 10px rgba(0,207,77,1)
 }
 
 /* ============================================================ main-start ============================================================ */
@@ -878,6 +880,7 @@ main {
 .search_card ul li:nth-child(7) a:hover {
     color: #12114a;
     text-decoration: none;
+    box-shadow: 0 0 10px rgba(0,207,77,1)
 }
 
 .search_card {
@@ -990,21 +993,12 @@ img[alt="lower-delta_img"] {
 }
 
 .footer_list ul:nth-child(1) li:nth-child(2) {
-    padding: 22px 0 21px 0;
-    line-height: 11px;
+    padding: 10px 0 10px 0;
 }
 
-.footer_list ul:nth-child(1) li:nth-child(2) a {
-    line-height: 11px;
-    font-family: 'Montserrat-Medium';
-    font-weight: 500;
-    font-size: 14px;
-    color: #ffffff;
-}
-
-.footer_list ul:nth-child(1) li:nth-child(2) a:hover {
-    color: #00cf4d;
-    text-decoration: none;
+.footer_list ul:nth-child(1) li:nth-child(2) a img{
+   height: 40px;
+   width: 160px;
 }
 
 .footer_list ul:nth-child(1) li:nth-child(3) {

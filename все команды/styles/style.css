@@ -217,147 +217,77 @@ main {
 
 }
 
-.top_part ul {
-    padding-left: 18px;
-}
-
-.top_part ul li:nth-child(1) {
-    font-family: 'Montserrat-Regular';
-    font-weight: normal;
-    font-size: 18px;
-    color: #253556;
-    line-height: 14px;
-    margin-bottom: 9px;
-}
-
-.top_part ul ul:nth-child(2) {
+.card_1 .top_part .top_part_ul{
     display: flex;
-    justify-content: space-between;
-    padding: 0;
+    justify-content: space-between;   
+    width: 327px; 
     margin: 0;
-    width: 235px;
 }
 
-.top_part ul ul:nth-child(2) li:nth-child(1) {
+.top_part ul li:nth-child(1) a{
     font-family: 'Montserrat-Regular';
-    font-weight: normal;
-    font-size: 12px;
-    color: #253556;
-    line-height: 15px;
-    margin: 0;
+    font-weight: 400;
+    font-size: 13px;
+    color: #a9adb7;
+    line-height: 18px;
+    text-decoration: none;
 }
-.top_part ul ul:nth-child(2) li:nth-child(2) {
+.top_part .top_part_ul li:nth-child(1){
+    width: 93px;
+        
+}
+.top_part .top_part_ul li:nth-child(1){
+    line-height: 18px;    
+}
+.card_1 .top_part ul:nth-child(3) li:nth-child(1){
+    width: 98px;
     line-height: 15px;
 }
-.top_part ul ul:nth-child(2) li:nth-child(2) img{
-    vertical-align: top;
+.card_1 .top_part ul:nth-child(3) li:nth-child(2){
+    width: 98px;
+    margin-top: 8px;
 }
 
-.top_part ul li:nth-child(3) {
+.card_1 .top_part ul:nth-child(3) li:nth-child(2) a{
+    line-height: 25px;
+    font-size: 20px;
+    width: 17px;
+    margin-left: 83px;
+    color: #a9adb7;
+}
+
+.card_1 .top_part ul:nth-child(3) li:nth-child(2) a:hover{
+    color: #01c94d;
+}
+
+.card_1 .bottom_part ul li:nth-child(1){
+    font-family: 'Montserrat-Medium';
+    font-weight: 500;
+    font-size: 16px;
+    color: #253556;
+    line-height: 12px;
+    margin-top: 13px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card_1 .bottom_part ul li:nth-child(2){
     font-family: 'Montserrat-Bold';
     font-weight: 700;
     font-size: 14px;
     color: #00cf4d;
     line-height: 11px;
-    padding: 13px 0 12px 0;
+    margin-top: 19px;
+    text-align: center;
 }
-
-.top_part ul li:nth-child(4) a {
-
-    padding: 2px 35px 2px 35px;
-    border-radius: 50px;
+.card_1 .bottom_part ul li:nth-child(3){
     font-family: 'Montserrat-Regular';
-    font-weight: normal;
-    font-size: 11px;
-    color: #000000;
-    background: #efefef;
-    text-transform: capitalize;
-    line-height: 8px;
-
-}
-
-.top_part ul li:nth-child(4) a,
-.card_1:nth-child(3) .top_part ul li:nth-child(4) a {
-    padding: 2px 35px 2px 35px;
-    border-radius: 50px;
-    font-family: 'Montserrat-Regular';
-    font-weight: normal;
-    font-size: 11px;
-    color: #000000;
-    /* background: #7fe7a6; */
-    text-transform: capitalize;
-    line-height: 8px;
-}
-
-.card_1 .top_part .activity a {
-    background: #7fe7a6;
-}
-
-.top_part ul li:nth-child(4) {
-    line-height: 15px;
-}
-
-.top_part ul li:nth-child(4) a:hover {
-    text-decoration: none;
-}
-
-.bottom_part ul {
-    margin: 0;
-}
-
-.bottom_part ul li:nth-child(1) {
-    font-family: 'Montserrat-Regular';
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     color: #333333;
-    line-height: 20px;
-}
-
-.bottom_part ul ul:nth-child(2) {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-
-}
-.bottom_part ul ul:nth-child(2) li:nth-child(1),
-.bottom_part ul ul:nth-child(2) li:nth-child(1) a{
-    font-family: 'Montserrat-Regular';
-    font-weight: normal;
-    font-size: 13px;
-    color: #a9adb7;
-    line-height: 10px;
-    padding-top: 10px;
-
-}
-
-.bottom_part ul li:nth-child(2) a {
-    font-size: 20px;
-    line-height: 25px;
-    color: #a9adb7;
-    width: 17px;
-
-}
-.bottom_part ul li:nth-child(2) a:hover {
-    color: #01c94d;
-}
-
-.bottom_part ul ul:nth-child(2) li:nth-child(1) a:hover {
-    text-decoration: none;
-}
-.bottom_part ul ul:nth-child(2) li:nth-child(2){
-    height: 16px;
-}
-.bottom_part ul ul:nth-child(2) li:nth-child(2) span{
-    font-family: 'Montserrat-Medium';
-    font-weight: 500;
-    font-size: 14px;
-    color: #253556;
-     
-}
-
-.bottom_part ul ul:nth-child(2) li:nth-child(2) img[alt="bookmark"]{
-    height: 16px;
+    line-height: 21px;
+    margin-top: 9px;
+    text-align: center;
 }
 
 .card_1 {
@@ -424,12 +354,12 @@ main {
 }
 
 .left_part_card img[alt="performers_img"] {
-    padding-left: 10px;
+    padding-left: 6px;
 }
 
 .left_part_card ul li:nth-child(1) {
     padding: 19px 0;
-    padding-left: 10px;
+    padding-left: 6px;
 }
 
 .left_part_card ul li:nth-child(1) a {
@@ -479,6 +409,7 @@ main {
     font-size: 18px;
     color: #253556;
     line-height: 14px;
+    text-transform: uppercase;
 }
 
 .right_part_card ul li:nth-child(1) {
@@ -493,21 +424,16 @@ main {
     color: #253556;
     line-height: 14px;
     padding-top: 8px;
-    margin-bottom: 11px;
+    margin-bottom: 5px;
 }
 
-.right_part_card ul li:nth-child(2) span {
+.right_part_card ul li:nth-child(2){
     font-family: 'Montserrat-Medium';
     font-weight: 500;
     font-size: 14px;
     color: #253556;
+    text-align: end;
 }
-
-.right_part_card ul li:nth-child(2) {
-    display: flex;
-    justify-content: space-between;
-}
-
 .right_part_card ul li:nth-child(3) a:nth-child(1) {
     font-family: 'Montserrat-SemiBold';
     font-weight: 600;
@@ -518,7 +444,8 @@ main {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     padding: 5px 14px;
-
+    position: relative;
+    bottom: 13px;
 }
 
 .right_part_card ul li:nth-child(3) a:nth-child(1):hover {
@@ -526,10 +453,10 @@ main {
 }
 
 .right_part_card ul li:nth-child(3) a:nth-child(2) {
-    line-height: 25px;
     font-size: 20px;
-    width: 17px;
+    line-height: 25px;
     color: #a9adb7;
+    width: 17px;
 }
 .right_part_card ul li:nth-child(3) a:nth-child(2):hover {
     color: #01c94d;
@@ -559,24 +486,15 @@ main {
 }
 
 .right_part_card ul li:nth-child(6) {
-    font-family: 'Montserrat-Regular';
-    font-weight: normal;
-    font-size: 13px;
-    color: #333333;
-    line-height: 10px;
-    padding-top: 9px;
-}
-
-.right_part_card ul li:nth-child(7) {
     font-family: 'Montserrat-SemiBold';
     font-weight: 600;
     font-size: 13px;
     color: #253556;
-    line-height: 12px;
+    line-height: 18px;
     padding: 12px 0;
 }
 
-.right_part_card ul li:nth-child(8) {
+.right_part_card ul li:nth-child(7) {
     display: flex;
     justify-content: space-between;
 }
@@ -827,21 +745,42 @@ main {
 .search_card ul li:nth-child(5) span:nth-child(3) {
     padding: 3px 0 0 12px;
 }
+.search_card ul li:nth-child(6){
+    font-family: 'Montserrat-Regular';
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 10px;
+    color: #253556;
+    padding: 25px 0 0 13px;
+    text-transform: uppercase;
+}
 
-.search_card ul li:nth-child(6) {
-    padding: 21px 0 35px 14px;
+.search_card ul li:nth-child(7),
+.search_card ul li:nth-child(8),
+.search_card ul li:nth-child(9),
+.search_card ul li:nth-child(10),
+.search_card ul li:nth-child(11){
+    padding: 21px 0 0px 14px;
     line-height: 12px;
     display: flex;
     align-items: center;
 
 }
 
-.search_card ul li:nth-child(6) span {
+.search_card ul li:nth-child(11){
+    padding: 21px 0 35px 14px;
+}
+
+.search_card ul li:nth-child(7) span,
+.search_card ul li:nth-child(8) span,
+.search_card ul li:nth-child(9) span,
+.search_card ul li:nth-child(10) span,
+.search_card ul li:nth-child(11) span{
     padding-left: 12px;
-    font-family: 'Montserrat-Regular';
-    font-weight: normal;
+    font-family: 'Montserrat-Medium';
+    font-weight: 500;
     font-size: 13px;
-    color: #253556;
+    color: #0f0e41;
     line-height: 10px;
 }
 
@@ -878,7 +817,7 @@ main {
 
 /* ---- slider ---- */
 
-.search_card ul li:nth-child(7) a {
+.search_card ul li:nth-child(12) a {
     padding: 10px 30px;
     background: #00cf4d;
     font-family: 'Montserrat-Medium';
@@ -889,7 +828,7 @@ main {
     margin-left: 89px;
 }
 
-.search_card ul li:nth-child(7) a:hover {
+.search_card ul li:nth-child(12) a:hover {
     color: #12114a;
     text-decoration: none;
     box-shadow: 0 0 10px rgba(0,207,77,1)
